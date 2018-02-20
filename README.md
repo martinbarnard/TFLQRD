@@ -1,10 +1,10 @@
-# Queens Road Peckham Next Train Display
+# Brentford Market Place Bus display
 
 ## Why? 
 
-My partner often gets the next train to work from our local train station, and while it's good to check CityMapper, I have created a tool which handily sits on a raspberry pi 3 display. 
+The original one was nice, but I felt that there could be improvements in the javascript & html. Also, I wanted an example which used the bus timetable api.
+It shows the next n-buses going towards Chiswick and away from Chiswick from a single bus stop 
 
-It shows enough information to know when to get up and leave to get the next train, I am hoping one day to add a cue for < 5 minutes to notify, like an alarm. 
 
 
 ## Customisation 
@@ -25,3 +25,29 @@ Thus it's unique identifier is 910GCLDNNRB.
 
 
 Enjoy! 
+
+###    Typical example of an entity:  
+
+```
+    "$type": "Tfl.Api.Presentation.Entities.Prediction, Tfl.Api.Presentation.Entities"
+    bearing: "76"
+    currentLocation: ""
+    destinationName: "Eastbound"
+    destinationNaptanId: ""
+    direction: "outbound"
+    expectedArrival: "2018-02-18T22:19:21Z"
+    id: "-415760652"
+    lineId: "237"
+    lineName: "237"
+    modeName: "bus"
+    naptanId: "490004292F"
+    operationType: 1
+    platformName: "BN"
+    stationName: "Market Place"
+    timeToLive: "2018-02-18T22:19:51Z"
+    timeToStation: 49
+    timestamp: "2018-02-18T22:18:32Z"
+    timing: Object { "$type": "Tfl.Api.Presentation.Entities.PredictionTiming, Tfl.Api.Presentation.Entities", countdownServerAdjustment: "-00:00:00.1398078", source: "2018-02-16T11:55:04.668Z", … }
+    towards: "Chiswick, Hanwell or Northfields"
+    vehicleId: "LK10BXS"
+```

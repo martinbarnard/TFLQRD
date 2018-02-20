@@ -1,58 +1,44 @@
-body {
-  background-color: black;
+
+#timetable {
+    width: 90%;
+    
 }
-
-#number1 {
-  background-color: black;
-  width: 70%;
-  text-align: center;
-  margin-left: auto;
-  display: flex;
-  margin-right: auto;
-  font-size: 20pt;
-  color: #FFA500;
-  font-family: 'Codystar', cursive;
-}
-
-#number2 {
-  background-color: black;
-  width: 70%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 20pt;
-  color: #FFA500;
-  font-family: 'Codystar', cursive;
-
-
+h2 {
+    width:          70%;
+    text-align:     center;
+    margin-left:    auto;
+    margin-right:   auto;
+    font-size:      2.5em;
+    font-weight:    normal;
+    color:          #FFA500;
 }
 #holder {
-  height: 70%;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+    height:         70%;
+    width:          50%;
+    margin-left:    auto;
+    margin-right:   auto;
 
 }
-
+#credit_where_due {
+    color:          #FFA500;
+    font-size:      1em;
+    margin-left:    auto;
+    text-align:     center;
+    float:          left;
+}
 #josh {
-  font-family: 'Sacramento', cursive;
-    color: #FFA500;
-    font-size: 20pt;
-    margin-left: auto;
-    margin-right: auto;
-    
-      text-align: center;
+    font-family:    'Sacramento', cursive;
+    fornt-size:     1em;
+    padding-right:  2em;
+    float:          right;
 }
 
 #title {
-  background-color: black;
-  width: 70%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 40pt;
-  color: #FFA500;
-  font-family: 'Codystar', cursive;
+    width:          70%;
+    text-align:     center;
+    margin-left:    auto;
+    margin-right:   auto;
+    font-size:      40pt;
+    color:          #FFA500;
+    font-family:    'Codystar', cursive;
 }
